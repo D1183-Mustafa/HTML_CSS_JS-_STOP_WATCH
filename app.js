@@ -93,7 +93,7 @@ function işlem(){
         timeSecond.innerText = sec;
         timeMilisecond.innerText = msec;
 
-        setTimeout(işlem,1000/60)
+        setTimeout(işlem,10)
     }
 }
 
